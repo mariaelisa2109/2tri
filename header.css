@@ -31,3 +31,15 @@
 .container_botao:checked ~ .lista-menu {
     display: block;
 }
+.lista-menu_titulo,
+.lista-menu_item {
+padding: lem;
+background-colo: var(--branco);
+}
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%
+    width: 60vw;
+
+}
